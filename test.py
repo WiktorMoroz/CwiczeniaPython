@@ -15,3 +15,4 @@ colonel_present = 'Colonel' in ranks
 print(num_ranks)
 print(major_index)
 print(colonel_present)
+print("hi hello")
