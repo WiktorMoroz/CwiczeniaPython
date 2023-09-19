@@ -32,9 +32,7 @@ flights = [
 delta_airlines = flights.pop(1)
 print(len(flights))
 flights.append(delta_airlines)
-flight_number = []
-flight_number.append(flights[0][1])
-flight_number.append(flights[1][1])
-flight_number.append(flights[2][1])
-flight_number.append(flights[3][1])
-print(flight_number)
+message = ','.join(
+    [flights[0][1], flights[1][1], flights[2][1], flights[3][1]]
+)
+print(message)
